@@ -8,9 +8,6 @@ import 'screens/home_screen.dart';
 void main() {
   runApp(const MyApp());
 }
-
-/// Root widget. Provides [ThemeBloc] at the top of the tree so the whole
-/// [MaterialApp] can react to theme changes triggered from Phase 1.
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
