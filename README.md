@@ -14,37 +14,6 @@ patterns, plus the three core widgets used to consume them:
 - `flutter_bloc` (Bloc, Cubit, BlocProvider, BlocBuilder, BlocListener,
   BlocConsumer, `context.read`)
 
-## 3. Project Structure
-
-```
-lib/
-├── main.dart
-├── screens/
-│   └── home_screen.dart          # Navigation hub for every demo
-├── widgets/
-│   └── counter_control_button.dart
-├── phase1/
-│   ├── bloc/
-│   │   ├── counter_bloc.dart
-│   │   ├── counter_event.dart
-│   │   ├── counter_state.dart
-│   │   ├── theme_bloc.dart
-│   │   ├── theme_event.dart
-│   │   └── theme_state.dart
-│   └── screens/
-│       └── phase1_screen.dart
-├── phase2/
-│   └── screens/
-│       ├── bloc_listener_screen.dart
-│       ├── bloc_builder_screen.dart
-│       └── bloc_consumer_screen.dart
-└── phase3/
-    ├── cubit/
-    │   └── counter_cubit.dart
-    └── screens/
-        └── counter_app_screen.dart
-```
-
 ## 4. Phase 1 — Introduction to BLoC
 
 ### CounterBloc
